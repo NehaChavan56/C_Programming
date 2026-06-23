@@ -1,5 +1,5 @@
 #include<stdio.h>
-void Table(int iNo)
+void TableRev(int iNo)
 {
     int iCnt = 0;
     int iMul = 0;
@@ -26,7 +26,7 @@ int main()
     printf("Enter number: \n");
     scanf("%d", &iValue);
 
-    Table(iValue);
+    TableRev(iValue);
    
     return 0;
 }

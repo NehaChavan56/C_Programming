@@ -10,7 +10,7 @@ void Display(int iNo, int iFrequency)
     }
     for(iCnt = 1 ; iCnt <= iFrequency ; iCnt++ )
     {
-        printf("%d",iNo);
+        printf("%d\t",iNo);
     }
 }
 int main()

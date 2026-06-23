@@ -2,6 +2,11 @@
 void Pattern(int iNo)
 {
     int iCnt = 0;
+    if(iNo <0)
+    {
+        iNo= -iNo;
+    }
+    
     iCnt = 1;
     while (iCnt <= iNo)
     {
